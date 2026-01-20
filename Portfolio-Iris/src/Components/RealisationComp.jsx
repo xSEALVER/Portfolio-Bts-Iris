@@ -1,11 +1,13 @@
 import React from 'react';
 import { FileText } from 'lucide-react';
+import realisationImage from '../assets/pendu.png';
+
 
 export default function Realisation() {
   const missions = [
     {
-      title: 'Mission1',
-      image: 'https://via.placeholder.com/300x200/e2e8f0/64748b?text=img',
+      title: 'Pendu',
+      image: realisationImage,
       technologies: 'Technologies utilisées',
     },
     {
@@ -54,17 +56,13 @@ export default function Realisation() {
                   <h3 className="text-xl font-bold text-gray-900">{mission.title}</h3>
                 </div>
 
-                {/* Image placeholder */}
+                {/* Image */}
                 <div className="bg-gray-100 h-48 flex items-center justify-center border-b-2 border-gray-200">
-                  <div className="relative w-40 h-32 border-2 border-gray-400">
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <span className="text-gray-600 text-2xl font-semibold">img</span>
-                    </div>
-                    <svg className="absolute inset-0 w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
-                      <line x1="0" y1="0" x2="100" y2="100" stroke="#9ca3af" strokeWidth="1" />
-                      <line x1="100" y1="0" x2="0" y2="100" stroke="#9ca3af" strokeWidth="1" />
-                    </svg>
-                  </div>
+                  <img 
+                    src={mission.image} 
+                    alt={mission.title}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
 
                 {/* Technologies */}

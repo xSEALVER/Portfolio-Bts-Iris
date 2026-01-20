@@ -53,7 +53,6 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
-import cvFile from "../assets/CV Eric MIEZAN.pdf";
 
 const HeroSection = () => {
   return (
@@ -94,8 +93,8 @@ const HeroSection = () => {
             M'embaucher
           </button> */}
           <a
-            href="{cvFile}"
-            download="Mon_CV_Eric_Miezan.pdf"
+            href="CV_Eric.pdf"
+            download="CV-Miezan-Eric.pdf"
             className="bg-white text-black hover:bg-gray-200 px-6 py-3 rounded-full flex items-center "
             data-aos="fade-right"
           >
