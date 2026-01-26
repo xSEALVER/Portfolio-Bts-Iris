@@ -21,29 +21,9 @@ export default function VeilleTechnologique() {
       {/* Main Content */}
       <main className="container mx-auto px-4 py-12">
         <div className="max-w-4xl mx-auto text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-violet-600 mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold text-violet-600 mb-3">
             Veille technologique
           </h1>
-          <p className="text-lg text-gray-600 mb-8">
-            La veille technologique est une pratique qui consiste à surveiller
-            les évolutions d'un secteur pour maintenir ses compétences à jour et
-            anticiper les changements.
-          </p>
-
-          <div className="bg-white rounded-2xl shadow-lg p-8 mb-12">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              Sujet de ma veille
-            </h2>
-            <p className="text-gray-600 leading-relaxed">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-              ratione alias amet mollitia ab earum odit sunt dolore ipsum.
-              Fugiat, maiores saepe. Eaque asperiores placeat eius iste, quia,
-              blanditiis accusantium dolor molestias voluptatum accusamus vitae
-              optio, expedita sit itaque natus.
-            </p>
-          </div>
-
-          <h2 className="text-2xl font-bold text-gray-900 mb-8">Mes outils</h2>
         </div>
 
         {/* Tools Cards */}

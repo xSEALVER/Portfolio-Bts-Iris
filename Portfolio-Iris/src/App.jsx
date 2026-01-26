@@ -4,7 +4,8 @@ import "aos/dist/aos.css";
 import AOS from "aos";
 import React from "react";
 import Contact from "./Pages/Contact";
-import About from "./Pages/About";
+import Parcours from "./Pages/Parcours";
+import Competences from "./Pages/Competences";
 import Sio from "./Pages/Sio";
 import Veille from "./Pages/Veille";
 import Realisation from "./Pages/Realisation";
@@ -27,8 +28,9 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/parcours" element={<Parcours />} />
         <Route path="/sio" element={<Sio />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/competences" element={<Competences />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/veille" element={<Veille />} />
         <Route path="/realisation" element={<Realisation />} />

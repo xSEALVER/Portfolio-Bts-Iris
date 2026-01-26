@@ -59,7 +59,7 @@ const ExpandableText = ({ text }) => {
   return (
     <div>
       <motion.p
-        className="text-slate-600 leading-normal font-light overflow-hidden"
+        className="text-white leading-normal font-light overflow-hidden "
         initial={{ height: "3rem" }}
         animate={{ height: isExpanded ? "auto" : "6rem" }}
         transition={{ duration: 0.3 }}
@@ -70,7 +70,7 @@ const ExpandableText = ({ text }) => {
         className="text-white mt-2 bg-violet-600 hover:bg-violet-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
         onClick={() => setIsExpanded(!isExpanded)}
       >
-        {isExpanded ? "Read Less" : "Read More"}
+        {isExpanded ? "Lire Moins" : "Lire Plus"}
         <svg
           class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
           aria-hidden="true"
@@ -105,7 +105,7 @@ Grâce à cette formation, les étudiants acquièrent des compétences technique
 De plus, l’option SISR prépare les futurs professionnels à travailler avec des technologies modernes comme la virtualisation, le cloud computing et la supervision des systèmes afin d’optimiser la performance et la sécurité des réseaux informatiques.`;
 
   return (
-    <div className="flex w-full items-center h-full py-20 px-8">
+    <div className="flex w-full items-center h-full py-20 px-8  bg-gray-900">
       {/* First Card */}
       <div className="relative flex flex-col bg-transparent shadow-sm border border-gray-40 rounded-lg w-1/2 p-4 m-2">
         <div className="mx-3 mb-0 border-b border-slate-200 pt-3 pb-2 px-1">

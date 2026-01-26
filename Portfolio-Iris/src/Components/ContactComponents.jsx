@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactComponents = () => {
   return (
-    <section className=" py-12">
+    <section className=" py-12 bg-gray-900">
       <div
         className="top-header text-center "
         data-aos="fade-down"

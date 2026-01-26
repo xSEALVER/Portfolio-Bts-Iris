@@ -16,13 +16,13 @@ function Navbar() {
             <Link to="/sio" className="text-gray-800 hover:text-blue-600 transition">BTS SIO</Link>
           </li>
           <li>
-            <Link to="/signin" className="text-gray-800 hover:text-blue-600 transition">Ecole & Entreprise</Link>
+            <Link to="/parcours" className="text-gray-800 hover:text-blue-600 transition">Parcours</Link>
           </li>
           <li>
             <Link to="/realisation" className="text-gray-800 hover:text-blue-600 transition">Réalisations</Link>
           </li>
           <li>
-            <Link to="/about" className="text-gray-800 hover:text-blue-600 transition">À Propos</Link>
+            <Link to="/competences" className="text-gray-800 hover:text-blue-600 transition">Compétences</Link>
           </li>
           <li>
             <Link to="/projet" className="text-gray-800 hover:text-blue-600 transition">Projets</Link>

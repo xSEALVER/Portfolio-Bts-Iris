@@ -1,16 +1,16 @@
 import React from 'react';
 import Navbar from '../Components/Navbar';
-import AboutHeroComp from '../Components/AboutHeroComp';
+import CompetencesComp from '../Components/CompetencesComp';
 import Footer from '../Components/Footer';
 
-function About() {
+function Competences() {
   return (
     <>
         <Navbar/>
-        <AboutHeroComp/>
+        <CompetencesComp/>
         <Footer/>
     </>
   )
 }
 
-export default About
+export default Competences

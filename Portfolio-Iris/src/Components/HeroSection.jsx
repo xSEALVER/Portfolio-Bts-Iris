@@ -69,10 +69,7 @@ const HeroSection = () => {
         <h1 className="text-5xl font-bold mb-4" data-aos="fade-up">
           Je suis{" "}
           <TypeAnimation
-            sequence={[
-              "Etudiant en BTS SIO",
-              1000
-            ]}
+            sequence={["Etudiant en BTS SIO", 1000]}
             speed={200} // Typing speed
             deletionSpeed={200} // Slower erasing speed
             wrapper="span"
@@ -82,9 +79,10 @@ const HeroSection = () => {
         </h1>
 
         {/* Subtitle */}
-        <p className="text-gray-400 mb-8 w-[450px]" data-aos="fade-up">
-          Experienced frontend developer with a passion for creating visually
-          stunning and user-friendly websites.
+        <p className="text-white mb-8 w-[450px]" data-aos="fade-up">
+          Je maîtrise parfaitement HTML, CSS et JavaScript, ainsi que d'autres
+          frameworks et bibliothèques de pointe, ce qui me permet de développer
+          des fonctionnalités interactives. 
         </p>
 
         {/* Buttons */}
@@ -106,7 +104,7 @@ const HeroSection = () => {
         <div className="flex space-x-6 text-gray-400">
           {/* Lien vers Instagram */}
           <a
-            href="https://www.instagram.com/ton_profil_instagram/"
+            href="https://www.instagram.com/ericmiezan/"
             target="_blank"
             rel="noopener noreferrer"
             data-aos="fade-up"
