@@ -1,87 +1,73 @@
-import React from 'react';
-import { FileText } from 'lucide-react';
-import realisationImage from '../assets/pendu.png';
+import React, { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
+const RealisationComp = () => {
 
-export default function Realisation() {
-  const missions = [
-    {
-      title: 'Pendu',
-      image: realisationImage,
-      technologies: 'Technologies utilisées',
-    },
-    {
-      title: 'Mission1',
-      image: 'https://via.placeholder.com/300x200/e2e8f0/64748b?text=img',
-      technologies: 'Technologies utilisées',
-    },
-    {
-      title: 'Mission1',
-      image: 'https://via.placeholder.com/300x200/e2e8f0/64748b?text=img',
-      technologies: 'Technologies utilisées',
-    },
-    {
-      title: 'Mission1',
-      image: 'https://via.placeholder.com/300x200/e2e8f0/64748b?text=img',
-      technologies: 'Technologies utilisées',
-    },
-  ];
+    useEffect(() => {
+      AOS.init({
+        duration: 600,
+        easing: 'ease-out-cubic',
+        once: true,
+        offset: 80,
+      })
+    }, [])
+
 
   return (
-    <div className="min-h-screen bg-gray-900 py-12 px-4">
-      <div className="max-w-7xl mx-auto">
-        {/* Title */}
-        <div className="flex justify-center mb-8">
-          <h1 className=" text-violet-600 text-3xl font-bold px-12 py-4  shadow-lg">
-            Réalisations
-          </h1>
-        </div>
+    <section className="py-16 flex justify-center bg-gray-900" >
+      <div className="w-full max-w-4xl" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+        {/* TITRE PAGE */}
+        <h1 className="text-3xl font-bold text-violet-600 text-center mb-14">
+          Projets
+        </h1>
 
-        {/* Description */}
-        <div className="bg-white rounded-3xl shadow-lg p-6 mb-12 mx-4">
-          <p className="text-gray-800 text-lg leading-relaxed">
-            TP, projets et missions réalisés au cours des 2 années à l'école et au sein de l'entreprise,
-            présentés sous forme de 'card' (au moins 6).
+        {/* PROJET 1 */}
+        <div className="mb-12">
+          <h2 className="text-2xl font-semibold text-violet-600 mb-2">
+            Site de Restauration Italien
+          </h2>
+
+          <p className="text-gray-400 mb-3">
+            <strong>Technologies utilisées : </strong>
+
+            <span className="text-violet-600">HTML, CSS, GitHub</span>
+          </p>
+
+          <p className="text-white leading-relaxed">
+            Site vitrine pour un restaurant italien spécialisé dans les pâtes.
+            Ce projet a été réalisé en HTML et CSS afin de présenter le
+            restaurant, ses spécialités, ses menus et son univers visuel. Il m’a
+            permis de travailler la mise en page, le design responsive et
+            l’organisation du contenu d’un site web.
           </p>
         </div>
 
-        {/* Mission Cards */}
-        <div className="flex flex-wrap justify-center gap-6">
-          {missions.map((mission, index) => (
-            <div key={index} className="flex flex-col items-center">
-              {/* Card */}
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden w-72 border-4 border-blue-800">
-                {/* Title */}
-                <div className="bg-white py-3 text-center border-b-2 border-gray-200">
-                  <h3 className="text-xl font-bold text-gray-900">{mission.title}</h3>
-                </div>
+        {/* PROJET 2 */}
+        <div className="mb-12">
+          <h2 className="text-2xl font-semibold text-violet-600 mb-2">
+            Jeu du pendu
+          </h2>
 
-                {/* Image */}
-                <div className="bg-gray-100 h-48 flex items-center justify-center border-b-2 border-gray-200">
-                  <img 
-                    src={mission.image} 
-                    alt={mission.title}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+          <p className="text-gray-400 mb-3">
+            <strong>Technologies utilisées : </strong>
 
-                {/* Technologies */}
-                <div className="bg-white p-4 text-center">
-                  <div className="border-2 border-gray-800 rounded px-4 py-2">
-                    <p className="text-gray-900 font-medium">{mission.technologies}</p>
-                  </div>
-                </div>
-              </div>
+            <span className="text-violet-600">
+              HTML, CSS, JavaScript, GitHub, Netlify
+            </span>
+          </p>
 
-              {/* Documentation Button */}
-              <button className="mt-4 bg-white hover:bg-gray-50 text-gray-900 font-semibold px-6 py-2 rounded-lg shadow-md border-2 border-gray-800 transition-colors flex items-center gap-2">
-                <FileText size={18} />
-                Bouton documentation
-              </button>
-            </div>
-          ))}
+          <p className="text-white leading-relaxed">
+            Projet de jeu de lettres consistant à deviner un mot ou une phrase
+            en proposant des lettres une par une. Chaque erreur fait progresser
+            le dessin du pendu. Ce projet m’a permis de travailler la logique
+            JavaScript, la gestion des événements utilisateur et la manipulation
+            du DOM.
+          </p>
         </div>
       </div>
-    </div>
+    </section>
   );
-}
+};
+
+export default RealisationComp;
