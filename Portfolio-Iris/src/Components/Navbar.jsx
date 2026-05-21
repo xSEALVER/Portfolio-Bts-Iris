@@ -33,6 +33,9 @@ function Navbar() {
           <li>
             <Link to="/contact" className="text-gray-800 hover:text-blue-600 transition">Contact</Link>
           </li>
+          <li>
+            <Link to="/tab-competences" className="text-gray-800 hover:text-blue-600 transition">Tableau de compétences</Link>
+          </li>
         </div>
       </ul>
     </nav>

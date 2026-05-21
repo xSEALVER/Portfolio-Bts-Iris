@@ -10,6 +10,8 @@ import Sio from "./Pages/Sio";
 import Veille from "./Pages/Veille";
 import Realisation from "./Pages/Realisation";
 import Projet from "./Pages/Projet";
+import TabCompetences from "./Pages/TabCompetences";
+
 
 import "./index.css";
 
@@ -35,6 +37,7 @@ function App() {
         <Route path="/veille" element={<Veille />} />
         <Route path="/realisation" element={<Realisation />} />
         <Route path="/projet" element={<Projet />} />
+        <Route path="/tab-competences" element={<TabCompetences />} />
       </Routes>
     </Router>
   );

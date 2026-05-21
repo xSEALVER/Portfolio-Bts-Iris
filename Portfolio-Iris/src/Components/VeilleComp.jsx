@@ -26,7 +26,7 @@
 //                 Cet article présente les nouvelles fonctionnalités de GitHub
 //                 Copilot et explique comment l’outil utilise l’intelligence
 //                 artificielle pour assister les développeurs lors de l’écriture
-//                 du code. 
+//                 du code.
 //               </p>
 
 //               <p className="text-gray-400 mb-6 text-sm">
@@ -159,81 +159,84 @@ const VeilleComp = () => {
 
         {/* INTRODUCTION */}
         <p className="text-gray-300 text-center max-w-3xl mx-auto mb-16 leading-relaxed mt-20 bg-gray-800 rounded-2xl p-6">
-          Dans le cadre de ma veille technologique, j’ai choisi de m’intéresser à
-          l’intelligence artificielle et à l’automatisation. Ces deux domaines
-          occupent une place de plus en plus importante dans le monde de
-          l’informatique et du développement logiciel. Ils permettent d’améliorer
-          la productivité des développeurs, d’optimiser les processus et
-          d’accompagner l’évolution des pratiques professionnelles, ce qui en
-          fait des sujets essentiels à suivre.
+          Dans le cadre de ma veille technologique, j’ai choisi de m’intéresser
+          au Machine Learning et à l’apprentissage automatique. Ce domaine
+          occupe une place de plus en plus importante dans le monde de
+          l’informatique et du développement logiciel. Il permet de concevoir
+          des systèmes capables d’apprendre à partir de données, d’améliorer
+          leurs performances avec le temps et d’automatiser des tâches
+          complexes, ce qui en fait un sujet essentiel à suivre dans l’évolution
+          des technologies actuelles.
         </p>
 
-        {/* THEME 1 */}
-        <div className="mb-14">
-          <h2 className="text-2xl font-semibold text-white mb-6">
-            Intelligence artificielle
-          </h2>
+       {/* THEME 1 */}
+<div className="mb-14">
+  <h2 className="text-2xl font-semibold text-white mb-6">
+    Machine Learning
+  </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* ARTICLE 1 */}
-            <div className="bg-gray-800 rounded-2xl p-6 shadow-md">
-              <h3 className="text-xl font-semibold text-white mb-3">
-                GitHub Copilot améliore l’assistance au développement
-              </h3>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 
-              <p className="text-gray-300 mb-4 leading-relaxed">
-                Cet article présente les nouvelles fonctionnalités de GitHub
-                Copilot et explique comment l’outil utilise l’intelligence
-                artificielle pour assister les développeurs lors de l’écriture
-                du code.
-              </p>
+    {/* ARTICLE 1 */}
+    <div className="bg-gray-800 rounded-2xl p-6 shadow-md">
+      <h3 className="text-xl font-semibold text-white mb-3">
+        Le Machine Learning transforme les applications modernes
+      </h3>
 
-              <p className="text-gray-400 mb-6 text-sm">
-                Analyse personnelle : cet article m’a permis de comprendre
-                comment l’IA peut améliorer la productivité des développeurs
-                tout en posant des questions sur la dépendance aux outils
-                automatisés.
-              </p>
+      <p className="text-gray-300 mb-4 leading-relaxed">
+        Cet article explique comment le Machine Learning est utilisé dans
+        de nombreux domaines comme la reconnaissance d’images, les systèmes
+        de recommandation ou encore l’analyse intelligente des données.
+      </p>
 
-              <a
-                href="https://www.lemondeinformatique.fr/actualites/lire-javascript-jquery-400-supporte-les-types-de-confiance-99134.html"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block px-6 py-2 bg-violet-600 text-white rounded-xl hover:bg-violet-700 transition"
-              >
-                Lire l’article
-              </a>
-            </div>
+      <p className="text-gray-400 mb-6 text-sm">
+        Analyse personnelle : cet article m’a permis de mieux comprendre
+        l’importance du Machine Learning dans le développement moderne
+        ainsi que son impact dans l’automatisation et l’amélioration
+        des applications.
+      </p>
 
-            {/* ARTICLE 2 */}
-            <div className="bg-gray-800 rounded-2xl p-6 shadow-md">
-              <h3 className="text-xl font-semibold text-white mb-3">
-                L’IA générative dans les applications web modernes
-              </h3>
+      <a
+        href="https://www.ibm.com/fr-fr/topics/machine-learning"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block px-6 py-2 bg-violet-600 text-white rounded-xl hover:bg-violet-700 transition"
+      >
+        Lire l’article
+      </a>
+    </div>
 
-              <p className="text-gray-300 mb-4 leading-relaxed">
-                Cet article explique comment l’IA générative est intégrée dans
-                les applications web afin de créer du contenu dynamique et
-                personnalisé pour les utilisateurs.
-              </p>
+    {/* ARTICLE 2 */}
+    <div className="bg-gray-800 rounded-2xl p-6 shadow-md">
+      <h3 className="text-xl font-semibold text-white mb-3">
+        Les applications du Machine Learning au quotidien
+      </h3>
 
-              <p className="text-gray-400 mb-6 text-sm">
-                Analyse personnelle : ce sujet montre l’évolution rapide des
-                usages de l’IA et son impact direct sur l’expérience
-                utilisateur.
-              </p>
+      <p className="text-gray-300 mb-4 leading-relaxed">
+        Cet article présente plusieurs applications concrètes du Machine
+        Learning comme les assistants vocaux, les recommandations
+        personnalisées, la reconnaissance faciale ou encore les systèmes
+        prédictifs.
+      </p>
 
-              <a
-                href="https://www.stackjobs.ai/blog/js-et-ia"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block px-6 py-2 bg-violet-600 text-white rounded-xl hover:bg-violet-700 transition"
-              >
-                Lire l’article
-              </a>
-            </div>
-          </div>
-        </div>
+      <p className="text-gray-400 mb-6 text-sm">
+        Analyse personnelle : ce sujet montre que le Machine Learning
+        est devenu essentiel dans les nouvelles technologies et permet
+        d’améliorer considérablement l’expérience utilisateur.
+      </p>
+
+      <a
+        href="https://developers.google.com/machine-learning/intro-to-ml"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block px-6 py-2 bg-violet-600 text-white rounded-xl hover:bg-violet-700 transition"
+      >
+        Lire l’article
+      </a>
+    </div>
+
+  </div>
+</div>
 
         {/* THEME 2 */}
         <div>
@@ -301,9 +304,7 @@ const VeilleComp = () => {
 
         {/* CONCLUSION */}
         <div className="mt-20 bg-gray-800 rounded-2xl p-6">
-          <h2 className="text-2xl font-semibold text-white mb-4">
-            Conclusion
-          </h2>
+          <h2 className="text-2xl font-semibold text-white mb-4">Conclusion</h2>
           <p className="text-gray-300 leading-relaxed">
             Cette veille technologique m’a permis de mieux comprendre l’impact
             de l’intelligence artificielle et de l’automatisation dans le
@@ -314,7 +315,6 @@ const VeilleComp = () => {
             à rester informé des évolutions majeures du secteur.
           </p>
         </div>
-
       </div>
     </section>
   );
